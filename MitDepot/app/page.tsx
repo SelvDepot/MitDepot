@@ -27,7 +27,7 @@ export default function Page() {
           <ul className={styles.pitchList}>
             <li>Vi arbejder 1:1 med formuebeviste personer.</li>
             <li>Vi bygger på gennemtænkt sikkerhed, open-source værktøjer og skræddersyer efter behov.</li>
-            <li>Det her handler ikke om hype, crypto eller trading cykler – men om, hvordan du beholder dine Bitcoin.</li>
+            <li>Det her handler ikke om hype, crypto eller trading cykler men om, hvordan du beholder dine Bitcoin.</li>
           </ul>
         </>
       ),
