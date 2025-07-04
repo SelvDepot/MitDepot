@@ -1,0 +1,312 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f7821b;
+  font-family: Arial, sans-serif;
+}
+.headerText {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  font-weight: 400;
+}
+.subtitleNormal {
+  font-weight: normal;
+}
+.contentWrapper {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.intro {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.ctaButton {
+  display: inline-block;
+  background: #1a202c;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.ctaButton:hover {
+  background: #2d3748;
+}
+.ctaButtonGreen {
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+}
+.ctaButtonGreen:hover {
+  background: linear-gradient(90deg, #16a34a, #15803d);
+}
+.description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+.videoContainer {
+  margin: 2rem 0;
+}
+.video {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.mainContent {
+  margin: 2rem 0;
+}
+.mainContent p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.secondaryCta {
+  margin: 2rem 0;
+}
+.assessmentText {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #666;
+}
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  background: #1a202c;
+  color: #fff;
+}
+.footerLink {
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+.footerLink:hover {
+  color: #22c55e;
+}
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  background: #1a202c;
+}
+.footerContent a {
+  color: #22c55e;
+  text-decoration: none;
+}
+.footerContent a:hover {
+  text-decoration: underline;
+}
+.pitchSection {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.pitchContent {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.closeButton:hover {
+  background: #dc2626;
+}
+.pitchNavigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.navButton {
+  background: #1a202c;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.prevButton {
+  margin-right: 1rem;
+}
+.nextButton {
+  margin-left: 1rem;
+}
+.navButton:hover {
+  background: #2d3748;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modalContent {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+.passwordInput {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.confirmButton {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.confirmButton:hover {
+  background: #16a34a;
+}
+.cancelButton {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cancelButton:hover {
+  background: #dc2626;
+}
+.downloadList {
+  list-style-type: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  font-weight: 500;
+}
+.downloadList li {
+  margin-bottom: 1rem;
+}
+.downloadButton {
+  display: inline-block;
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+  color: #ffffff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.downloadButton:hover {
+  background: linear-gradient(90deg, #16a34a, #15803d);
+  transform: translateY(-2px);
+}
+.pitchList {
+  list-style-type: disc;
+  padding-left: 2rem;
+  text-align: left;
+}
+.packagesContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.package {
+  flex: 1;
+  min-width: 300px;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+.packageGreen {
+  border-left: 5px solid #22c55e;
+}
+.packageYellow {
+  border-left: 5px solid #f59e0b;
+}
+.packageBlue {
+  border-left: 5px solid #3b82f6;
+}
+.packageList {
+  list-style-type: disc;
+  padding-left: 2rem;
+  text-align: left;
+  margin: 1rem 0;
+}
+.duration {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 1rem 0;
+}
+.note {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 1rem;
+}
+.packageRow {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+}
+.activeLink {
+  font-weight: bold;
+  color: #ff9900;
+}
